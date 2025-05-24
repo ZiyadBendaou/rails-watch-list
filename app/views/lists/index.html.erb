@@ -1,0 +1,6 @@
+<h1>Lists of Movies</h1>
+<div class="cards">
+  <% @lists.each do |list| %>
+    <%= render 'list', list: list %>
+  <% end %>
+</div>
